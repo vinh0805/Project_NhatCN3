@@ -1,7 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .navbar {
-  background-color: black !important;
+  background-color: #008080 !important;
+  font-family: "Comic Sans MS";
 }
 
 .nav-link {
@@ -9,6 +10,7 @@
 }
 
 #logo {
+  font-family: "Comic Sans MS";
   float: left;
   font-size: 1.7em;
   color: #fff;
@@ -21,8 +23,26 @@
   margin-top: 25px;
 }
 
+a.btn.btn-success.btn-lg {
+  background-color: #008080 !important;
+  border-color: white !important;
+}
+a.btn.btn-success.btn-lg:hover {
+  background-color: #008f8f !important;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+  color: white;
+  background-color: #008080 !important;
+  border-color: white !important;
+}
+button.btn.btn-outline-success.my-2.my-sm-0:hover {
+  background-color: #008f8f !important;
+}
+
+
 .jumbotron {
-  background-image: asset-url('jumbo-copy.jpg');
+  background-image: asset-url('ITbackground2.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,11 +56,20 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: lightgrey;
+  background-color: #f4fff4;
+}
+
+h1.text-center.mt-4 {
+    font-family: "Comic Sans MS";
 }
 
 #sticky-footer {
+  background-color: #008080 !important;
   flex-shrink: none;
+}
+
+form.shadow.p-3.mb-3.bg-info.rounded {
+  background-color: #008f8f !important;
 }
 
 /* pagination styling */
