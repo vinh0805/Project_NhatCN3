@@ -1,7 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .navbar {
-  background-color: #008080 !important;
+  background-color: black !important;
   font-family: "Comic Sans MS";
 }
 
@@ -19,34 +19,41 @@
   font-weight: bold;
 }
 
+.avatar{
+  border-radius: 50% !important;
+  margin-right: 10px;
+}
+
 #home-container {
   margin-top: 25px;
 }
 
 a.btn.btn-success.btn-lg {
-  background-color: #008080 !important;
+  background-color: black !important;
   border-color: white !important;
 }
 a.btn.btn-success.btn-lg:hover {
-  background-color: #008f8f !important;
+  background-color: black !important;
 }
 
 button.btn.btn-outline-success.my-2.my-sm-0 {
   color: white;
-  background-color: #008080 !important;
+  background-color: black !important;
   border-color: white !important;
 }
 button.btn.btn-outline-success.my-2.my-sm-0:hover {
-  background-color: #008f8f !important;
+  background-color: black !important;
 }
 
 
 .jumbotron {
-  background-image: asset-url('ITbackground2.jpg');
+  background-image: url(https://advsolutions.vn/wp-content/uploads/2019/12/background-powerpoint-cong-nghe-13.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 425px;
+  height: 550px;
+  padding-top: 150px;
+  margin-top: 40px;
 }
 
 html,
@@ -54,9 +61,10 @@ body {
   height: 100%;
 }
 
+
 #page-content {
   flex: 1 0 auto;
-  background-color: #f4fff4;
+  background-color: #e4e973a3;
 }
 
 h1.text-center.mt-4 {
@@ -64,13 +72,22 @@ h1.text-center.mt-4 {
 }
 
 #sticky-footer {
-  background-color: #008080 !important;
+  background-color: black !important;
   flex-shrink: none;
 }
 
 form.shadow.p-3.mb-3.bg-info.rounded {
-  background-color: #008f8f !important;
+  background-image: url(https://advsolutions.vn/wp-content/uploads/2019/12/background-powerpoint-cong-nghe-13.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
 }
+
+.card-body .text-left{
+  padding-left: 30px;
+}
+
 
 /* pagination styling */
 
